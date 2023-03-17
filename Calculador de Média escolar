@@ -1,0 +1,35 @@
+programa
+{
+	
+	funcao inicio()
+	{
+     escreva("saiba sua média! digite as notas a seguir:")
+     
+     real nota1
+	escreva("digite a primeira nota: ")
+	leia(nota1)
+
+	real nota2
+	escreva("digite a segunda nota: ")
+	leia(nota2)
+
+	real nota3
+	escreva("digite a terceira nota: ")
+	leia(nota3)
+
+	real nota4
+	escreva("digite a quarta nota: ")
+	leia(nota4)
+
+	real soma
+	soma = nota1 + nota2 + nota3 + nota4
+
+	real div
+	div = 4
+
+	real media
+	media = soma / div
+
+	escreva("\nsua media é:", media)
+	}
+}
