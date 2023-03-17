@@ -1,0 +1,31 @@
+programa
+{
+	
+	funcao inicio()
+	{
+	
+escreva("saiba se voce pode votar ou não")
+
+     inteiro idade
+     escreva("\nqual sua idade?")
+     leia(idade)
+
+     se(idade>=60){
+     escreva("\nvoto não obrigatorio")
+     } senao{
+     	se(idade>=18){
+     		escreva("\nvoto obrigatorio")
+     	} senao{
+     		se(idade>=16){
+     			escreva("\nopcional o voto")
+     		} senao{
+     			se(idade<=15){
+     				escreva("\nproibido o voto")
+     			}
+     		}
+     	}
+     }
+     
+	
+	}
+}
