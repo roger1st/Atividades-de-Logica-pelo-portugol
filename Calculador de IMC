@@ -1,0 +1,40 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva(" vamos saber seu imc?")
+
+		real altura
+		escreva("\nqual sua altura? ")
+		leia(altura)
+
+          real peso
+          escreva("e o seu peso? ")
+          leia(peso)
+          
+          real alt
+          alt = altura * altura
+
+          real resultado
+          resultado = peso / alt
+          escreva("\n seu IMC é: ", resultado)
+
+          
+          se(resultado>=30){
+          	escreva("\nobesidade grave")
+          }senao{
+          	se(resultado>=25){
+          		escreva("\nsobrepeso")
+          	} senao{
+          		se(resultado>=18.5){
+          			escreva("\nnormal")
+          		}senao{
+          			se(resultado<=18.5){
+          				escreva("\nabaixo do peso")
+          			}
+          		}
+          	}
+          }
+	}
+}
